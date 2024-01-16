@@ -1,0 +1,14 @@
+C:\Users\II novbe\Desktop\Examnew\Solution1\src\ClassLibrary1.Core\bin\Debug\net6.0\Hook.Core.deps.json
+C:\Users\II novbe\Desktop\Examnew\Solution1\src\ClassLibrary1.Core\bin\Debug\net6.0\Hook.Core.dll
+C:\Users\II novbe\Desktop\Examnew\Solution1\src\ClassLibrary1.Core\bin\Debug\net6.0\Hook.Core.pdb
+C:\Users\II novbe\Desktop\Examnew\Solution1\src\ClassLibrary1.Core\obj\Debug\net6.0\Hook.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\II novbe\Desktop\Examnew\Solution1\src\ClassLibrary1.Core\obj\Debug\net6.0\Hook.Core.AssemblyInfoInputs.cache
+C:\Users\II novbe\Desktop\Examnew\Solution1\src\ClassLibrary1.Core\obj\Debug\net6.0\Hook.Core.AssemblyInfo.cs
+C:\Users\II novbe\Desktop\Examnew\Solution1\src\ClassLibrary1.Core\obj\Debug\net6.0\Hook.Core.csproj.CoreCompileInputs.cache
+C:\Users\II novbe\Desktop\Examnew\Solution1\src\ClassLibrary1.Core\obj\Debug\net6.0\Hook.Core.dll
+C:\Users\II novbe\Desktop\Examnew\Solution1\src\ClassLibrary1.Core\obj\Debug\net6.0\refint\Hook.Core.dll
+C:\Users\II novbe\Desktop\Examnew\Solution1\src\ClassLibrary1.Core\obj\Debug\net6.0\Hook.Core.pdb
+C:\Users\II novbe\Desktop\Examnew\Solution1\src\ClassLibrary1.Core\obj\Debug\net6.0\ref\Hook.Core.dll
+C:\Users\II novbe\Desktop\Examnew\Solution1\src\ClassLibrary1.Core\bin\Debug\net6.0\Hook.Core.runtimeconfig.json
+C:\Users\II novbe\Desktop\Examnew\Solution1\src\ClassLibrary1.Core\obj\Debug\net6.0\Hook.Core.csproj.AssemblyReference.cache
+C:\Users\II novbe\Desktop\Examnew\Solution1\src\ClassLibrary1.Core\obj\Debug\net6.0\Hook.Core.genruntimeconfig.cache
