@@ -10,4 +10,8 @@
     <ProjectReference Include="..\ClassLibrary1.Data\Hook.Data.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Exceptions\" />
+  </ItemGroup>
+
 </Project>

@@ -1,7 +1,17 @@
+using Hook.Data.DAL;
+using Hook.Data.ServiceRegistration;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddRepositories();
+//builder.Services.AddServices();
+builder.Services.AddDbContext<AppDbContext>(options =>
+{
+    options.UseSqlServer("Server=DESKTOP-1TG370G;Database=HookExam;Trusted_Connection=True");
+});
 
 var app = builder.Build();
 

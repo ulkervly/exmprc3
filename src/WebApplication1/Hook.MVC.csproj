@@ -18,12 +18,4 @@
     <ProjectReference Include="..\ClassLibrary1.Business\Hook.Business.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Areas\" />
-    <Folder Include="Areas\manage\Controllers\" />
-    <Folder Include="Areas\manage\Data\" />
-    <Folder Include="Areas\manage\Models\" />
-    <Folder Include="Areas\manage\Views\" />
-  </ItemGroup>
-
 </Project>
