@@ -18,4 +18,8 @@
     <ProjectReference Include="..\ClassLibrary1.Business\Hook.Business.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\uploads\features\" />
+  </ItemGroup>
+
 </Project>

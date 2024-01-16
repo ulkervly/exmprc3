@@ -1,5 +1,8 @@
+using Hook.Business.ServiceRegistration;
+using Hook.Core.Entities;
 using Hook.Data.DAL;
 using Hook.Data.ServiceRegistration;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -7,7 +10,11 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddRepositories();
-//builder.Services.AddServices();
+builder.Services.AddServices();
+builder.Services.AddIdentity<AppUser, IdentityRole>(opt =>
+{
+    opt.Password.RequiredLength = 8;
+}).AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
 builder.Services.AddDbContext<AppDbContext>(options =>
 {
     options.UseSqlServer("Server=DESKTOP-1TG370G;Database=HookExam;Trusted_Connection=True");

@@ -1,4 +1,5 @@
 ﻿using Hook.Core.Repositories;
+using Hook.Data.Repositories;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
@@ -12,7 +13,7 @@ namespace Hook.Data.ServiceRegistration
     {
         public static void AddRepositories(this IServiceCollection services)
         {
-            services.AddScoped<IFeatureRepository,IFeatureRepository>();
+            services.AddScoped<IFeatureRepository,FeatureRepository>();
         }
     }
 }
